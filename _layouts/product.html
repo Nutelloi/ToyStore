@@ -29,4 +29,16 @@ layout: default
       </div>
     </div>
   </div>
+  <script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'sign_up',
+ 'user_id': '$user_id',
+ 'user_type': '$user_type',
+ 'first_name': '$first_name',
+ 'last_name': '$last_name',
+ 'country': '$country',
+ 'sign_up_at': timestamp,
+ });
+</script>
 </div>
